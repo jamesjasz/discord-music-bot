@@ -1,6 +1,5 @@
 module.exports = {
   name: 'stop',
-  aliases: ['s'],
   description: 'Stop the music and leave the voice channel',
   execute(message, args) {
     const { getVoiceConnection } = require('@discordjs/voice');
